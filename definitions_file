@@ -1,0 +1,10 @@
+#Author: Chris Wallis
+#Date: 7-10-2014
+#Comments are in the same style as python. Yay!
+#The format is:
+#    Variable that might contain private info = allowed option 1, option 2, option 2, option 3
+#The hook will ensure that the Variable is only set to the allowed options.
+
+#Check for passwords
+PASSWORD=password,"Enter Password Here",notarealpassword
+USERNAME=username,"Enter Username Here",notarealusername
